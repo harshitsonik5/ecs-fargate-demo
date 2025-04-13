@@ -186,7 +186,7 @@ Resources:
       TaskRoleArn: !GetAtt ECSTaskRole.Arn
       ContainerDefinitions:
         - Name: flask-app
-          Image: !Sub 971422699574.dkr.ecr.us-east-1.amazonaws.com/flask-repo:latest
+          Image: 971422695974.dkr.ecr.us-east-1.amazonaws.com/flask-repo:latest
           PortMappings:
             - ContainerPort: 5000
           LogConfiguration:
